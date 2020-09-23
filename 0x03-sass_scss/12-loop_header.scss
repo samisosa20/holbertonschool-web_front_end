@@ -1,0 +1,5 @@
+/* loop with for to create h1 ... h5 */
+
+@for $i from 1 through 5 {
+  h#{$i} { font-size: #{$i}px; }
+}

@@ -1,0 +1,19 @@
+/* and extend style of the class */
+
+%message-shared {
+  font-size: 12px;
+}
+
+.info {
+  @extend %message-shared
+}
+
+.success {
+  @extend %message-shared;
+  color: #00FF00; 
+}
+
+.warning {
+  @extend %message-shared;
+  color: #FF0000;
+}
