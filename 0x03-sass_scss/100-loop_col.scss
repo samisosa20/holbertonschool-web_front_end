@@ -2,5 +2,5 @@
 
 @for $i from 1 through 4 {
   $size: 100% / $i;
-  col-#{$i} { width: #{$size}; }
+  .col-#{$i} { width: #{$size}; }
 }
